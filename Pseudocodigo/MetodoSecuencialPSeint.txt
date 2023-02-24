@@ -1,0 +1,9 @@
+Algoritmo busquedaSecuencial(arreglo: vecto de eneteros, numero: entero) : entero
+	Para i Hasta tamaño(arreglo)-1 Hacer
+		Si arreglo[i] es igual a numero Entonces
+			retornar i
+		FinSi
+	FinPara
+	retornar -1
+	
+FinAlgoritmo
