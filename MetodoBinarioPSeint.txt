@@ -1,0 +1,17 @@
+Funcion busquedaBinaria(arreglo: vector de enteros, numero: entero) : entero
+	inicio = 0
+	fin = tamaño(arreglo) -1
+	Mientras incio <- fin hacer
+		medio = (inicio + fin) / 2
+		Si arreglo[medio] es igual a numero entonces
+			retornar medio
+		SiNo
+			Si arreglo[medio] < numero entonces
+				inicio = medio +1
+			SiNo
+				fin = medio -1
+			Fin Si
+		Fin Si
+	Fin Mientras
+	retonar -1
+Fin funcion
